@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+  <div id="wrapper" class="">
+    <div id="main">
+      {% if site.banner %}
+        {% include banner.html %}
+      {% endif %}
+        {% include header.html %}
+      <div class="{{page.layout}}">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+  {% include tracking.html %}
+</body>

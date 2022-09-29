@@ -1,0 +1,132 @@
+# Site settings
+title: McKenzie Dental, Dr. Robert Kelly, DMD. Serving Welches, OR and surrounding areas.
+description: McKenzie Dental was founded in 1974 by the McKenzie family and it was the first dental practice established in Welches. A new office building was constructed in 1997 that was custom built to be a comfortable and inviting place for dental care. Dr. Robert Kelly and the team at McKenzie Dental are proud to offer a warm and caring environment where we strive to treat everyone like family. We listen to understand each person’s values and needs to tailor optimal, individual care. We are also proud to offer the best treatment available for family, cosmetic, and implant dentistry. We utilize advanced technology and training, including digital X-rays for less exposure to patients, to working with the newest materials and best dental laboratories available to us. We are a general dentist office serving individuals and families in the Mt Hood area, including the communities of Welches, Wemme, Rhododendron, Brightwood, Government Camp, Zig Zag, Sandy, Estacada, Damascus, Boring, Gresham, Maupin, and Tygh Valley.
+email: "mckenziedentalwelches@gmail.com"  # e.g. admin@asird.org
+experience: 20
+
+banner: true
+
+url: https://mckenziedental.net
+
+logourl:  /img/asird-logo.png # Your logo or avatar files
+navlogourl: /images/dr-1.robert_kelly_logo_preview.png # Your logo or avatar files
+footer_logourl: '/images/dr-1.robert_kelly_logo_preview.png'
+vertical_logourl:  # logo used in footer
+bg-tile:
+tos-link:
+
+authedurl: # should be blank or '/' unless customized for use with the bowtie-auth.js pswd protection
+
+stagingurl:
+productionurl:
+
+author:
+author_thumbnail:  # default author avatar
+
+# Theme additions - please update the default values if you intend to use these variables
+
+google_analytics_id:  '' # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
+google_api_key: AIzaSyCWwI6hxOqcIqYZOoVcmiCNK6Zm4uBR0CI
+sumoid:  # e.g. 'b8fe3b113e8eff21df4c245af51b205fc3a7ff5ab889892be1e98f4a50cd94a6'
+
+doctor:
+  name: Robert Kelly, DMD
+  practicename: McKenzie Dental
+  practicetagline: Over 20 years of experience.
+  intro: "Dr. Robert Kelly was born and raised on the Big Island of Hawaii. Dr. Kelly attended dental school at Boston University, graduating in 2005 with honors Magna Cum Laude. Dr. Kelly enjoys all general, restorative, periodontal, and cosmetic procedures. He especially enjoys being a family dentist and getting to know people of all ages, different places, and walks of life. He has been licensed in Oregon since 2008 and is a member of the American and Oregon Dental Associations. He actively participates in study clubs at OHSU and various learning/training opportunities around the country. Dr. Kelly is married to Aimee, who grew up in the same small town, and they have two boys and a girl. Dr. Kelly loves the Pacific Northwest and decided on this area to settle down and raise a family. He enjoys hiking, camping, travelling, cooking, photography, playing the guitar, surfing, snowboarding, volunteering in the community, and most of all spending time with his family!"
+  profile_img: /master_bio_images\mckenzie\Dr_kelly_Featured.png
+  education: "<p><strong>Doctor of Dental Medicine</strong> <br/> Boston University School of Dental Medicine <br/><br/><strong>Bachelor of Arts, Biology</strong> <br/> Whitman College</p>"
+  contact:
+    company:  "McKenzie Dental"
+    address: "24540 E Welches Rd. "
+    city: "Welches"
+    state: "OR"
+    zip: "97067"
+    country:  "USA"
+    phone:  (503) 622-3085  # e.g.  754-307-6990
+    fax: (503) 622-3753
+    latlng: 45.346094, -121.962765
+    twitter:               # (e.g. 'https://twitter.com/twitter')
+    facebook:  'https://www.facebook.com/mckenzie.dental/'         # (e.g. 'https://facebook.com/facebook')
+    yelp: 'https://www.yelp.com/biz/mckenzie-dental-welches'
+    google_reviews: 'https://goo.gl/maps/4RuRUQTKDi22'
+    healthgrades:
+    linkedin:                     # (e.g. 'https://linkedin/company/linkedin')
+    youtube:                        # (e.g. 'https://youttube.com/channel/UCovWO5keLOLcLu8WdO-ABJw')
+
+  disqus_id:           # From your Disqus account (e.g. 'bowtieexample')
+
+  addthis_id:  ''       # From your Add This account (e.g. 'ra-00000a0a00a00aaa')
+
+# Permalinks
+permalink:           /:categories/:title/
+relative_permalinks: false
+
+#gems: [jekyll-paginate]
+
+# Pagination config
+#paginate: 5
+#paginate_path: /page/:num
+
+
+#toggle future post dates back on
+future: true
+
+#compress sass
+sass:
+  style: compressed
+
+# Jekyll build/resource locations
+
+# source:  .
+# destination: ./_site
+# plugins_dir: null
+# layouts_dir: ./_layouts
+# data_dir:    ./_data
+# includes_dir: ./_includes
+
+# Jekyll Handling Reading
+include:    [] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
+
+keep_files: [] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+
+# Files/Folders to be excluded from generated '_site' folder
+exclude:
+  - .gitignore
+  - .sass-cache
+
+# define collection objects
+collections:
+  hero-slides:
+    output: false
+  office-slides:
+    output: false
+  procedures:
+    output: true
+  procedure-categories:
+    output: true
+  gallery:
+    output: false
+  reviews:
+    output: false
+  team:
+    output: false
+  patient-docs:
+    output: false
+  sections:
+    output: true
+    permalink: /sections/:path/
+
+defaults:
+  - scope:
+      type: procedure-categories
+    values:
+      layout: procedure-categories
+  - scope:
+      type: pages
+    values:
+      noindex: true
+  - scope:
+      type: procedures
+    values:
+      layout: procedure

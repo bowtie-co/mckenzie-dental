@@ -1,0 +1,14 @@
+<script type="text/javascript">
+$(window).resize( function() {
+    var height = $('.draft-banner').outerHeight();
+    console.log(height);
+    $('#nav').css('margin-top', height + 'px' );
+    $('#content').css('margin-top', height + 100 + 'px' );
+});
+$( document ).ready( function() {
+    var height = $('.draft-banner').outerHeight();
+    console.log(height);
+    $('#nav').css('margin-top', height + 'px' );
+    $('#content').css('margin-top', height + 100 + 'px' );
+});
+</script>
