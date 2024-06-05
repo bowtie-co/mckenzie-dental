@@ -1,5 +1,5 @@
 ---
-name: Andra
+name: Andra Fondersmith
 title: Dental Hygienist
 img_path: /img/Andra.jpg
 

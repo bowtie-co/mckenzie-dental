@@ -1,5 +1,5 @@
 ---
-name: Lisa
+name: Lisa Cavallaro
 title: Dental Hygienist
 img_path: /img/Lisa.jpg
 
