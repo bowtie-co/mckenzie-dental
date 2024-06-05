@@ -1,7 +1,7 @@
 ---
 name: Angela Beylund
 title: Dental Hygienist
-img_path: /upload/image/jpeg/1564505484045_img_path_Angela.jpg
+img_path: /img/Angela.jpg
 
 ---
 

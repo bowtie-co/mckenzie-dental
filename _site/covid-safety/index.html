@@ -38,37 +38,6 @@
   <div id="wrapper" class="">
     <div id="main">
       
-        <div class="draft-banner">
-  <h5>COVID-19 Safety:</h5>
-  <p>We are open for business, and have taken <a href="/covid-safety/">these steps</a> to ensure health and safety of our patients.</p>
-</div>
-<style type="text/css">
-  .draft-banner{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    top: 0;
-    z-index: 2000;
-    font-size: 12px;
-    width: 100%;
-    background-color: #c10808;
-    min-height: 60px;
-    padding: 16px 8px;
-    letter-spacing: .01em;
-  }
-  .draft-banner > p, .draft-banner > h5, .draft-banner {
-    color: white !important;
-    margin-bottom: 0;
-    text-align: center;
-  }
-  .draft-banner a, .draft-banner a:hover, .draft-banner a:visited, .draft-banner a:active {
-    color: #fff !important;
-  }
-</style>
-
-      
         <header class="">
   <nav id="nav" class="navbar navbar-upper" role="navigation">
   <a class="navbar-contact" href="tel:(503) 622-3085">
@@ -376,22 +345,6 @@
 <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
 <script type="text/javascript" src='/assets/js/slick-carousel.js'></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWwI6hxOqcIqYZOoVcmiCNK6Zm4uBR0CI&callback=initMap" async defer></script>
-
-<script type="text/javascript">
-$(window).resize( function() {
-    var height = $('.draft-banner').outerHeight();
-    console.log(height);
-    $('#nav').css('margin-top', height + 'px' );
-    $('#content').css('margin-top', height + 100 + 'px' );
-});
-$( document ).ready( function() {
-    var height = $('.draft-banner').outerHeight();
-    console.log(height);
-    $('#nav').css('margin-top', height + 'px' );
-    $('#content').css('margin-top', height + 100 + 'px' );
-});
-</script>
-
 
 
   

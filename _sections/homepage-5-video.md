@@ -8,7 +8,7 @@ style:
   id: ''
   class: 'dark text-center'
 media:
-  team-image: /img/mckenziedental-staff.jpg
+  team-image: /img/mckenziedental-staff2024.jpg
   video_url:
   tint_color: 'rgba(0,0,0,0.0)'  
 ---
