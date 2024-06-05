@@ -1,6 +1,6 @@
 ---
 name: Trish Brewick
-title: Dental Hygienist
+title: Dental Assistant
 img_path: /img/Trish.jpg
 
 ---
