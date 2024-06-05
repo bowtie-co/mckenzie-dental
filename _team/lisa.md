@@ -1,6 +1,6 @@
 ---
 name: Lisa Cavallaro
-title: Dental Hygienist
+title: Front Office Coordinator
 img_path: /img/Lisa.jpg
 
 ---
