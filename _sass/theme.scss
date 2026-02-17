@@ -231,17 +231,23 @@ h2.title:not(:first-child){
 
 #nav.navbar-upper {
   height: 37px;
+  min-height: 40px;
   font-family: $primary-font;
-  font-size: 1em;
+  font-size: .8em;
+  margin-bottom: 2px;
   font-weight: $primary-font-weight;
   color: $nav-font-color;
   justify-content: space-between;
+  @media (max-width: 600px) {
+    min-height: 70px;
+  }
   @media (max-width: 480px) {
     justify-content: flex-start;
   }
   a {color: $nav-font-color;}
   ul.navbar-nav {
     line-height: .94em;
+    margin-bottom: 5px;
     margin-left: 0;
     flex-direction: row;
     align-items: center;
@@ -266,10 +272,10 @@ h2.title:not(:first-child){
   }
   .mobile-upper-nav {
     display: flex;
+    margin-bottom: 5px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
       width: 100%;
     }
   }
