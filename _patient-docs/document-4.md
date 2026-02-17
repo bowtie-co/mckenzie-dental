@@ -1,5 +1,5 @@
 ---
-document_path: '/images\MD-Notice-of-Privacy-Practices.doc'
+document_path: '/images\McKDental_final_notice_of_privacy.pdf'
 title: HIPAA Notice of Privacy Policy
 intro_content:
 ---
