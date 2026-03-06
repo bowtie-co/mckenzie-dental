@@ -5,7 +5,7 @@ head:
   subtitle:
 style:
   id:
-  class: 'dark contained text-center'
+  class: 'contained text-center'
   media:
     img_path:
       url_path:
